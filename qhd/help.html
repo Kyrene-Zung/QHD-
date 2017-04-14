@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <style>
+        .page01{
+            height: 400px;
+        }
+        .page04{
+            min-height: 450px;
+            background-color: #f3f3f4;
+        }
+        .page04 .text04 p{
+            color:black;
+            font-size: 14px;
+        }
+        .page04 .content04 .leftTab {
+            float: left;
+            width:250px;
+        }
+        .page04 .content04 .leftTab li{
+            float: none;
+            height: 40px;
+            line-height:40px;
+            width:146px;
+            background-color: #fff;
+            border-top:1px solid #e1e7ee;
+            color:#5b5b5b;
+            font-size:14px;
+            position: relative;
+        }
+        .active{
+            height: 40px;
+            width:2px;
+            background-color:#049fbb ;
+            display: block;
+            float: left;
+        }
+        /*.page04 .content04 .leftTab li:before{*/
+            /*content: "";*/
+            /*height: 40px;*/
+            /*width:2px;*/
+            /*background-color:#049fbb ;*/
+            /*display: none;*/
+            /*position: absolute;*/
+        /*}*/
+        .page04 .content04 .leftTab li:nth-child(3){
+            border-bottom:1px solid #e1e7ee;
+        }
+        .page04 .content04 .leftTab li:hover{
+            color:#049fbb;
+            cursor: pointer;
+        }
+
+        .page04 .content04 .helper .rightCon{
+            mix-height:500px;
+            width:950px;
+            text-align: left;
+            float: left;
+            margin:100px 0 185px 0;
+        }
+        .page04 .content04 .helper .rightCon span{
+            font-size: 12px;
+            color:#777;
+            display: none;
+        }
+        .page04 .content04 .helper .rightCon span a:hover{
+            text-decoration: none;
+        }
+        .page04 .content04 .helper .rightCon h2{
+            margin:30px 0;
+        }
+        .page04 .content04 .helper .rightCon h3{
+            margin:10px 0;
+        }
+        .page04 .content04 .helper .rightCon p{
+            line-height: 30px;
+            font-size: 14px;
+            color:#777;
+        }
+        .page04 .content04 .helper .rightCon a{
+            line-height: 30px;
+            font-size: 14px;
+            color:#049fbb;
+        }
+        .page04 .content04 .helper .rightCon a:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+<div class="page01">
+    <div class="container">
+        <div class="text1 ">
+            <div class="logo">黑白点</div>
+            <ul>
+                <li><a href="project.html">解决方案</a></li>
+                <li><a href="serve.html">金牌服务</a></li>
+                <li><a href="help.html">帮助中心</a></li>
+                <li><a href="aboutUs.html">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="text01">
+            <h4>UI Design And Web Development</h4>
+            <h1>专注企业级网站应用开发</h1>
+        </div>
+        <div class="foot">
+            <h4>帮助企业打造赚钱机器</h4>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="page04">
+    <div class="content04">
+        <div class="text04">
+            <h4>帮助中心</h4>
+            <p>如果有疑问，这里或许能找到答案</p>
+        </div>
+        <div class="helper" >
+            <ul class="leftTab" id="leftTab">
+                <li><span ></span>合同申请</li>
+                <li><span></span>支付问题</li>
+                <li><span></span>阿里云相关问题</li>
+            </ul>
+            <div class="rightCon" id="rightCon">
+                <span><a href="index.html">首页&nbsp;</a></span><span><a href="#">/&nbsp;帮助中心&nbsp;/&nbsp;</a></span><span>阿里云相关问题</span>
+                <div class="contractApply" style="display: none;">
+                    <h2>合同申请</h2>
+                    <h3>如何申请合同？</h3>
+                    <p>为了保障双方合法权益，可以向我方提出合同申请，请点击下载查看具体详情（只支持解决方案，其他类型暂不支持合同申请）</p>
+                    <a href="">解决方案合同.doc</a>
+                    <h3>如何签署合同？</h3>
+                    <p>合同可通过三种方式签署</p>
+                    <p>1.邮寄签署，双方把文件签署好后邮寄至另一方</p>
+                    <p>2.合同传真，通过传真的方式签署合同</p>
+                    <p>3.在线签署，把签署好的合同通过扫描件或相片的形式发送至双方</p>
+                </div>
+                <div class="payQuestion" style="display: none;">
+                    <img src="images/about-img1.png" alt="">
+                    <h2>支付问题</h2>
+                    <h3>线下支付</h3>
+                    <img src="images/about-img2.png" alt="">
+                    <h3>索取发票</h3>
+                    <p>所有服务均可提供正规发票，具体操作请询问客服人员</p>
+                </div>
+                <div class="aliCloud" style="display: none;">
+                    <img src="images/about-img2.png" alt="" style="margin:0 300px">
+                    <h2>阿里云相关问题</h2>
+                    <h3>为什么我们的阿里云这么便宜？</h3>
+                    <p>我们是阿里云合作商家，享有特殊代理价格，在我们这里购买阿里 云的任何产品都是正品，均可享受阿里云官方售后！</p>
+                    <h3>怎么购买便宜的阿里云？</h3>
+                    <p>1、打开阿里云官网，看好相应的配置。</p>
+                    <p>2、联系客服咨询价格，然后提供一个邮箱号。备注：邮箱不能绑定淘宝或阿里云，邮箱务必正确 需要邮件确认</p>
+                    <p>3、客服会从阿里云后台帮您申请注册，您收到邮件 后根据提示进行注册。</p>
+                    <p>4、注册完成以后，提交订单。备注：不要 自行支付。</p>
+                    <p>5、支付对应折扣后的价格。拍完通知客服。 客服帮您结算。结算完成后即可开始使用！</p>
+                    <h3>除了购买到便宜的阿里云，还可享受到什么？</h3>
+                    <p>1.购买年付套餐 ，软件安装、环境配置 + 免费协助完成备案</p>
+                    <p>2.解决方案九折优惠券</p>
+                    <p>3.提供阿里云正规发票</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page07">
+    <div class="up container">
+        <dl>
+            <dt>金牌服务</dt>
+            <dd>项目评估</dd>
+            <dd>阿里云</dd>
+            <dd>Linux运维</dd>
+        </dl>
+        <dl>
+            <dt>解决方案</dt>
+            <dd>微信公众号</dd>
+            <dd>H5应用</dd>
+            <dd>企业B/S系统</dd>
+            <dd>响应式网站</dd>
+        </dl>
+        <dl>
+            <dt>帮助中心</dt>
+            <dd>合同申请</dd>
+            <dd>支付问题</dd>
+            <dd>阿里云相关问题</dd>
+        </dl>
+        <dl>
+            <dt>官方微信</dt>
+            <dd><img src="images/qrcode.jpg"></dd>
+        </dl>
+    </div>
+    <div class="down">
+        版权所有 © Copyright    东莞市黑白点网络科技有限公司   粤ICP备16019377号-1
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+    var $lis=$('.leftTab li');
+    var $divs=$('.rightCon div');
+    var $spans=$('.rightCon span');
+    $lis.each(function(index){
+        $(this).click(function(){
+            $spans.css('display','inline-block');
+            $spans.eq(2).html($(this).html());
+            $lis.find('span').removeClass('active');
+            $divs.css('display','none');
+            $(this).find('span').addClass('active');
+            $divs.eq(index).css('display','block');
+        })
+    });
+</script>
+//<script>
+//    window.onload=function(){
+//        var leftTab=document.getElementById('leftTab');
+//        var lis=leftTab.getElementsByTagName('li');
+//        var spanss=leftTab.getElementsByTagName('span');
+//        var rightCon=document.getElementById('rightCon');
+//        var divs=rightCon.getElementsByTagName('div');
+//        var spans=rightCon.getElementsByTagName('span');
+//        var lisArr=[];
+//        for(var i=0;i<lis.length;i++){
+//            lis[i].index=i;
+//            lisArr.push(lis[i].innerHTML);
+//            console.log(lisArr);
+//            lis[i].onclick=function(){
+//                for(var k=0;k<spans.length;k++){
+//                    spans[k].style.display="inline-block";
+//                }
+//                for(var j=0;j<divs.length;j++){
+//                    divs[j].style.display="none";
+//                }
+//                    divs[this.index].style.display="block";
+//                for(var l=0;l<spanss.length;l++){
+//                    spanss[l].className=" ";
+//                }
+//                    spanss[this.index].className='active';
+//                    spans[2].innerHTML=lisArr[this.index];
+//            }
+//        }
+//    }
+
+//</script>
+</body>
+</html>

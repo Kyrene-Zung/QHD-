@@ -1,0 +1,151 @@
+/*复位样式*/
+body,ul,li,p,h1,h4,h3,h6,div,input,dl,dd,dt{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "微软雅黑";
+}
+/*公共样式*/
+.container{
+    max-width:1168px;
+    min-width:1168px;
+    margin:auto;
+    height: 100%;
+    overflow: hidden;
+}
+    /*头部样式*/
+.page01{
+    overflow: hidden;
+    width:100%;
+    height: 728px;
+    background:url(../images/header-bg.jpg) no-repeat;
+    background-size:cover;
+}
+.page01 .text1{
+    height: 41px;
+    line-height: 41px;
+    margin:60px 0 0 95px;
+}
+.page01 .logo{
+    width:115px;
+    height: 41px;
+    line-height:41px;
+    text-align: right;
+    background:url(../images/logo.png) no-repeat left center;
+    background-size:33px 35px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+
+    float: left;
+    cursor: pointer;
+}
+.page01 ul{
+    float: right;
+    height: 41px;
+    line-height:41px;
+    /*margin:60px 35px 0 0;*/
+
+}
+.page01 ul li{
+    float: left;
+    width:120px;
+    list-style-type: none;
+}
+.page01 ul li a{
+    color:#fff;
+    font-size:14px;
+}
+.page01 .text01{
+    width:602px;
+    color:#fff;
+    margin:100px auto 0;
+    padding-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 2px solid #747d84;
+}
+.page01 .text01 h4{
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.page01 .foot{
+    width:500px;
+    margin:auto;
+    text-align: center;
+}
+.page01 .foot h4{
+    font-size: 18px;
+    color:#fff;
+    margin:30px 0 50px;
+
+}
+.page01 .foot button{
+    width:161px;
+    height: 68px;
+    color:#fff;
+    font-weight: bold;
+    font-size:18px;
+    border:none;
+    margin:auto;
+    border-radius: 0;
+}
+.page01 .foot .login{
+    background: #b61b23;
+    margin-right: 10px;
+}
+.page01 .foot .register{
+    background:transparent;
+    border:1px solid #fff;
+}
+
+/*尾部样式*/
+/*7*/
+.page07{
+    height: 315px;
+    background-color: #049fbb;
+}
+.page07 .up{
+    height: 275px;
+
+}
+.page07 .up dl{
+    margin-top:64px;
+    float: left;
+    margin-right:50px;
+}
+.page07 .up dt{
+    font-size:18px ;
+    color:#fff;
+    border-bottom: 2px solid #028aa2;
+    width:242px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+.page07 .up dd{
+    font-size:12px ;
+    color:#fff;
+    padding-bottom: 15px;
+}
+.page07 .up dd img{
+    width:102px;
+    height:102px;
+}
+.page07 .down{
+    height: 40px;
+    background-color: #028aa2;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+}
+
+

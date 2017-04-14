@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <style>
+        .page01{
+            height: 400px;
+        }
+        .page04{
+            min-height: 450px;
+            background-color: #f3f3f4;
+        }
+        .page04 .text04 p{
+            color:black;
+            font-size: 14px;
+        }
+        .page04 .content04 .leftTab {
+            float: left;
+            width:250px;
+            margin-bottom: 90px;
+        }
+        .page04 .content04 .leftTab li{
+            float: none;
+            height: 40px;
+            line-height:40px;
+            width:146px;
+            background-color: #fff;
+            border-top:1px solid #e1e7ee;
+            color:#5b5b5b;
+            font-size:14px;
+        }
+        .active{
+            height: 40px;
+            width:2px;
+            background-color:#049fbb ;
+            display: block;
+            float: left;
+        }
+
+        .page04 .content04 .leftTab li:nth-child(5){
+            border-bottom:1px solid #e1e7ee;
+        }
+        .page04 .content04 .leftTab li:hover{
+            color:#049fbb;
+            cursor: pointer;
+        }
+
+        .page04 .content04 .helper .rightCon{
+            mix-height:500px;
+            width:950px;
+            text-align: left;
+            float: left;
+            margin:100px 0 185px 0;
+        }
+        .page04 .content04 .helper .rightCon span{
+            font-size: 12px;
+            color:#777;
+            display: none;
+        }
+        .page04 .content04 .helper .rightCon span a:hover{
+            text-decoration: none;
+        }
+        .page04 .content04 .helper .rightCon h2{
+            margin:17px 0;
+        }
+        .page04 .content04 .helper .rightCon h3{
+            margin:10px 0;
+        }
+
+        .page04 .content04 .helper .rightCon p{
+            line-height: 35px;
+            font-size: 14px;
+            color:#444;
+        }
+        .page04 .content04 .helper .rightCon a{
+            line-height: 30px;
+            font-size: 14px;
+            color:#049fbb;
+        }
+        .page04 .content04 .helper .rightCon a:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+<div class="page01">
+    <div class="container">
+        <div class="text1 ">
+            <div class="logo">黑白点</div>
+            <ul>
+                <li><a href="project.html">解决方案</a></li>
+                <li><a href="serve.html">金牌服务</a></li>
+                <li><a href="help.html">帮助中心</a></li>
+                <li><a href="aboutUs.html">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="text01">
+            <h4>UI Design And Web Development</h4>
+            <h1>专注企业级网站应用开发</h1>
+        </div>
+        <div class="foot">
+            <h4>帮助企业打造赚钱机器</h4>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="page04">
+    <div class="content04">
+        <div class="text04">
+            <h4>帮助中心</h4>
+            <p>如果有疑问，这里或许能找到答案</p>
+        </div>
+        <div class="helper" >
+            <ul class="leftTab" id="leftTab">
+                <li><span ></span>公司简介</li>
+                <li><span></span>合作伙伴</li>
+                <li><span></span>最新动态</li>
+                <li><span ></span>加入我们</li>
+                <li><span></span>联系我们</li>
+            </ul>
+            <div class="rightCon" id="rightCon">
+                <span><a href="index.html">首页&nbsp;</a></span><span><a href="#">/&nbsp;帮助中心&nbsp;/&nbsp;</a></span><span>阿里云相关问题</span>
+                <div class="contractApply" style="display: none;">
+                    <h2>公司简介</h2>
+                    <p class="pText" style="line-height: 18px;margin-bottom: 15px;font-size:15px;color:#444">东莞市黑白点网络科技有限公司是一家快速成长 的互联网解决方案提供商。我们倡导的持续性交付模式深受企业的欢迎， 在保障产品质量的前提下，用户可以直观看到项目进度情况</p>
+                    <p class="pText" style="line-height: 18px;margin-bottom: 15px;font-size:15px;color:#444">公司成立于2016年。在此之前，我们已经为湖南、广东、上海等多地客户 服务多年，我们的优质产品及服务得到了客户的认可。我们的核心竞争力 来自于我们的丰富经验和重视研发的态度，研发人员平均有四年本职工作 经验，对于新技术我们十分敏感，经常为国内各大开放平台，及开源社区 做出贡献</p>
+                </div>
+                <div class="payQuestion" style="display: none;">
+                    <h2>合作伙伴</h2>
+                    <p>阿里云  谷歌  Docker  腾讯云  微信</p>
+                </div>
+                <div class="aliCloud" style="display: none;">
+                    <h2>最新动态</h2>
+                    <p>2016年3月24日 版本号：v1.0；官方网站上线！</p>
+                    <p>2016年4月7日 版本号：v1.1；新增产品模块，控制台模块，解决了一些遗留BUG</p>
+                    <p>2016年4月17日 版本号：v1.2.1；网站布局整体优化，用户字段修正，字体大小问题，解决了重置密码不能使用的问题</p>
+                    <p>2016年4月29日 版本号：v1.2.2；网站UI重新布局，进入稳定版本</p>
+                </div>
+                <div class="joinUs" style="display: none;">
+                    <h2>加入我们</h2>
+                    <p>NodeJs工程师：1年nodejs开发经验，会mean全栈开发，熟悉linux，有github账号优先</p>
+                    <p>电话销售：有热情，熟悉电话销售，有信心挑战高薪</p>
+                    <p>运营专员：1年运营经验，熟悉微信、微博等平台</p>
+                    <p>请将您的简历发送至：点点 我们将于三天内回复您的邮件</p>
+                </div>
+                <div class="callUs" style="display: none;">
+                    <h2>联系我们</h2>
+                    <p>东莞市黑白点网络科技有限公司</p>
+                    <p>地址：东莞市麻涌镇行政中心719室</p>
+                    <p>电话：0769-88236013</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page07">
+    <div class="up container">
+        <dl>
+            <dt>金牌服务</dt>
+            <dd>项目评估</dd>
+            <dd>阿里云</dd>
+            <dd>Linux运维</dd>
+        </dl>
+        <dl>
+            <dt>解决方案</dt>
+            <dd>微信公众号</dd>
+            <dd>H5应用</dd>
+            <dd>企业B/S系统</dd>
+            <dd>响应式网站</dd>
+        </dl>
+        <dl>
+            <dt>帮助中心</dt>
+            <dd>合同申请</dd>
+            <dd>支付问题</dd>
+            <dd>阿里云相关问题</dd>
+        </dl>
+        <dl>
+            <dt>官方微信</dt>
+            <dd><img src="images/qrcode.jpg"></dd>
+        </dl>
+    </div>
+    <div class="down">
+        版权所有 © Copyright    东莞市黑白点网络科技有限公司   粤ICP备16019377号-1
+    </div>
+</div>
+
+<script>
+    window.onload=function(){
+        var leftTab=document.getElementById('leftTab');
+        var lis=leftTab.getElementsByTagName('li');
+        var spanss=leftTab.getElementsByTagName('span');
+        var rightCon=document.getElementById('rightCon');
+        var divs=rightCon.getElementsByTagName('div');
+        var spans=rightCon.getElementsByTagName('span');
+        var lisArr=[];
+        for(var i=0;i<lis.length;i++){
+            lis[i].index=i;
+            lisArr.push(lis[i].innerHTML);
+            console.log(lisArr);
+            lis[i].onclick=function(){
+                for(var k=0;k<spans.length;k++){
+                    spans[k].style.display="inline-block";
+                }
+                for(var j=0;j<divs.length;j++){
+                    divs[j].style.display="none";
+                }
+                divs[this.index].style.display="block";
+                for(var l=0;l<spanss.length;l++){
+                    spanss[l].className=" ";
+                }
+                spanss[this.index].className='active';
+                spans[2].innerHTML=lisArr[this.index];
+            }
+        }
+    }
+
+</script>
+</body>
+</html>
